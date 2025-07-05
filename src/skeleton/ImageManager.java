@@ -6,7 +6,7 @@ import javax.swing.Icon;
 import javax.swing.ImageIcon;
 
 public class ImageManager{	
-	// ½ÇÇà ÆÄÀÏ »ý¼º¿ë ¼Ò½º
+	// ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½
 //	public ImageIcon ball = new ImageIcon(getClass().getClassLoader().getResource("balloon.png"));
 //	public ImageIcon upStream = new ImageIcon(getClass().getClassLoader().getResource("upStream.JPG"));
 //	public ImageIcon downStream = new ImageIcon(getClass().getClassLoader().getResource("downStream.JPG"));
@@ -21,18 +21,25 @@ public class ImageManager{
 //
 //	public ImageIcon key = new ImageIcon(getClass().getClassLoader().getResource("key.JPG"));
 	
-	// IDE »ó¿¡¼­ ½ÇÇà¿ë ¼Ò½º
+	// IDE ï¿½ó¿¡¼ï¿½ ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½Ò½ï¿½
 	public ImageIcon ball = new ImageIcon("image/balloon.png");
 	public ImageIcon upStream = new ImageIcon("image/upStream.JPG");
 	public ImageIcon downStream = new ImageIcon("image/downStream.JPG");
 	public ImageIcon leftStream = new ImageIcon("image/leftStream.JPG");
 	public ImageIcon rightStream = new ImageIcon("image/rightStream.JPG");
-	
+
 	public ImageIcon playerUp = new ImageIcon("image/up.png");
 	public ImageIcon playerDown = new ImageIcon("image/down.png");
 	public ImageIcon playerLeft = new ImageIcon("image/left.png");
 	public ImageIcon playerRight = new ImageIcon("image/right.png");
 	public ImageIcon playerDead = new ImageIcon("image/dead.png");
+
+	public ImageIcon daoPlayerUp = new ImageIcon("image/daoUp.png");
+	public ImageIcon daoPlayerDown = new ImageIcon("image/daoDown.png");
+	public ImageIcon daoPlayerLeft = new ImageIcon("image/daoLeft.png");
+	public ImageIcon daoPlayerRight = new ImageIcon("image/daoRight.png");
+	public ImageIcon daoPlayerDead = new ImageIcon("image/daoDead.png");
+
 
 	public ImageIcon key = new ImageIcon("image/key.JPG");
 }

@@ -63,7 +63,7 @@ public class Balloon extends JLabel implements Runnable{
 		try{ Thread.sleep(400); }
 		catch(InterruptedException e) { return; }
 		
-		// ¹°ÁÙ±â Á¦°Å
+		// ï¿½ï¿½ï¿½Ù±ï¿½ ï¿½ï¿½ï¿½ï¿½
 		for (int i = 0; i < power*4+1; i++) {
 			st[i].setVisible(false);;
 		}

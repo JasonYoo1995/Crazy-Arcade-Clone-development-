@@ -23,10 +23,10 @@ public class Controller {
 		Player p = null;
 		switch(n) {
 		case 1:
-			p = new Player(1, 11, 4);
+			p = new Player(1, 11, 4, "배찌");
 			break;
 		case 2:
-			p = new Player(2, 4, 8);
+			p = new Player(2, 4, 8, "다오");
 			break;
 		default:
 			break;
